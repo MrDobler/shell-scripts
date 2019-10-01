@@ -4,50 +4,75 @@
 [layouts]
   [[default]]
     [[[child0]]]
-      position = 0:25
-      type = Window
+      fullscreen = False
+      last_active_term = f558a94d-17d5-4bad-9535-f58da9b4b58a
+      last_active_window = True
+      maximised = False
       order = 0
       parent = ""
+      position = 0:339
       size = 1366, 708
+      title = arthur@arthur-techx: ~/dev/projeto-sci
+      type = Window
     [[[child1]]]
-      position = 632
-      type = VPaned
       order = 0
       parent = child0
-    [[[child2]]]
-      position = 354
+      position = 248
+      ratio = 0.352773826458
       type = VPaned
-      order = 0
+    [[[child3]]]
+      order = 1
       parent = child1
-    [[[child5]]]
-      position = 354
+      position = 215
+      ratio = 0.474613686534
+      type = VPaned
+    [[[child4]]]
+      order = 0
+      parent = child3
+      position = 682
+      ratio = 0.501102130786
       type = HPaned
+    [[[child7]]]
       order = 1
+      parent = child3
+      position = 681
+      ratio = 0.500367376929
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
       parent = child1
-    [[[terminal3]]]
       profile = default
+      type = Terminal
       command = htop; bash
-      type = Terminal
+      uuid = 2ffbf05e-471b-42b4-8241-68092ffa9623
+    [[[terminal5]]]
       order = 0
-      parent = child2
-    [[[terminal4]]]
+      parent = child4
       profile = default
-      command = cd ~/dev/; bash
       type = Terminal
-      order = 1
-      parent = child2
-    [[[terminal7]]]
-      profile = default
-      command = cd ~/dev/projeto-sci; bash
-      type = Terminal
-      order = 1
-      parent = child5
-    [[[terminal6]]]
-      profile = default
       command = cd ~/dev/projeto-sci-web; bash
+      uuid = f558a94d-17d5-4bad-9535-f58da9b4b58a
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
       type = Terminal
+      command = cd ~/dev/projeto-sci; bash
+      uuid = 6e5f8d88-90c3-4f57-a45e-906a55e80d8f
+    [[[terminal8]]]
       order = 0
-      parent = child5
+      parent = child7
+      profile = default
+      type = Terminal
+      command = cd ~/dev/projeto-sci-web; bash
+      uuid = b198a6a4-b7ab-47dc-be64-9292a84e2dee
+    [[[terminal9]]]
+      order = 1
+      parent = child7
+      profile = default
+      type = Terminal
+      command = cd ~/dev/projeto-sci; bash
+      uuid = 82e9a0b2-2d57-4f4e-b964-e70ff42886ab
 [plugins]
 [profiles]
   [[default]]
